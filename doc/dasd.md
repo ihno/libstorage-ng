@@ -64,7 +64,7 @@ Implicit Partition Table
 ------------------------
 
 What is an implicit partition table? As mentioned above the kernel creates a
-partition on some DASDs even though no partition table exists on-disk. This
+partition on LDL DASDs even though no partition table exists on-disk. This
 situation is represented in libstorage-ng by an implicit partition table
 having one partition. Since the implicit partition table does not exist
 on-disk no modifications whatsoever are possible.
